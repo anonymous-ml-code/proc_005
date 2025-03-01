@@ -31,4 +31,4 @@ while color_name != "":
     except KeyError:
         print(f"Invalid color name: {color_name}")
     color_name = input("Enter a color name (or blank to quit): ").strip().title()  # Normalize input
-    color_name = capitalize_each_word(color_name)
+    # color_name = capitalize_each_word(color_name)
