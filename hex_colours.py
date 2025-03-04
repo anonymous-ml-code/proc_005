@@ -18,13 +18,13 @@ for name, code in COLOR_CODES.items():
     print(f"{name:20} {code}")
 
 
-def capitalize_each_word(text):
-    return ''.join(word[0].upper() + word[1:] for word in text.split())
+# def capitalize_each_word(text):
+#     return ''.join(word[0].upper() + word[1:] for word in text.split())
 
 # Ask the user for a color name and display the corresponding hex code
 color_name = input("\nEnter a color name (or blank to quit): ").strip().title()  # Normalize input
 # print(color_name)
-color_name = capitalize_each_word(color_name)
+# color_name = capitalize_each_word(color_name)
 while color_name != "":
     try:
         print(f"The hex code for {color_name} is {COLOR_CODES[color_name]}")
