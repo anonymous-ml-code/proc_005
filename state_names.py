@@ -16,10 +16,12 @@ for code, name in CODE_TO_NAME.items():
     print(f"{code} is {name}")
 
 # Ask the user for their 'short' state and print the full state name
-state_code = input("\nEnter short state: ").upper()  # Convert input to uppercase
+# Convert input to uppercase
+state_code = input("\nEnter short state: ").upper()
 while state_code != "":
     try:
         print(f"{state_code} is {CODE_TO_NAME[state_code]}")
     except KeyError:
         print("Invalid short state")
-    state_code = input("Enter short state: ").upper()  # Convert input to uppercase
+    # Convert input to uppercase
+    state_code = input("Enter short state: ").upper()

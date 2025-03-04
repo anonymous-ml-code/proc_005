@@ -12,6 +12,7 @@ COLOR_CODES = {
     "Blue": "#0000ff"
 }
 
+
 # Print all color names and codes neatly lined up
 print("Color names and codes:")
 for name, code in COLOR_CODES.items():
